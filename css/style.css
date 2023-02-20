@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700,800,900&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "HelveticaNeueCyr";
+	src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+		url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+	background-color: rgba(128, 128, 128, 0.342);
+	overflow-x: hidden;
+}
+.wrapper {
+	min-height: 100%;
+	font-family: "Roboto";
+}
+
+/* ______________________________________________________ */
+
+.header {
+text-align: center;
+position: sticky;
+top: 0px;
+z-index: -1;
+}
+
+.header__img {
+}
+.who-we-are {
+padding-bottom: 925px;
+}
+
+.who-we-are__nemo {
+max-width: 1020px;
+margin: -300px auto;
+background: #5D62B5;
+border-radius: 40px;
+border: 1px solid #5D62B5;
+position: relative;
+}
+
+.who-we-are__nemo::before {
+content: "";
+display: inline-block;
+width: 201px;
+height: 317px;
+background: url('../img/nemo/decor.png') 0 0 no-repeat;
+position: absolute;
+top: -111px;
+right: -77px;
+}
+
+.who-we-are__nemo::after {
+content: "";
+display: inline-block;
+width: 665px;
+height: 591px;
+background: url('../img/nemo/blob.png') 0 0 no-repeat;
+position: absolute;
+bottom: -140px;
+left: -10px;
+}
+
+.who-we-are__content {
+padding: 100px 87px 0px 87px;
+margin-bottom: 54px;
+}
+
+.who-we-are__logotip {
+font-weight: 700;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 2.5px;
+text-transform: uppercase;
+color: #F5F5F5;
+position: relative;
+padding-left: 36px;
+margin-bottom: 33px;
+}
+
+.who-we-are__logotip::before {
+content: "";
+display: inline-block;
+width: 20px;
+height: 20px;
+background: url('../img/nemo/icon.svg') 0 0 no-repeat;
+position: absolute;
+top: -2px;
+left: 0px;
+}
+
+.who-we-are__title {
+font-weight: 900;
+font-size: 36px;
+line-height: 1.17;
+color: #FFF;
+margin-bottom: 36px;
+}
+
+.who-we-are__text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.15px;
+color: #F5F5F5;
+}
+
+.who-we-are__img {
+text-align: center;
+margin-bottom: -120px;
+position: relative;
+z-index: 1;
+}
+
+.who-we-are__dog-img {
+border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
